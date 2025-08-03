@@ -51,7 +51,7 @@ Altere a URL conforme necessário para bater no seu backend.
 4. **Execute o front-end**
 
 ```bash
-npm run dev
+npm start
 ```
 
 Acesse o app no navegador: (http://localhost:5173)
