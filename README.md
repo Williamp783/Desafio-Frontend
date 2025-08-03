@@ -1,12 +1,71 @@
-# React + Vite
+# Front-End - BackChatHT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o front-end do projeto **BackChatHT**, desenvolvido em **React + Vite**, com foco em interações com múltiplos chatbots personalizados via API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- React (useState, useEffect, useRef)
+- Vite (build tool)
+- CSS Modules
+- React Markdown
+- Toastify (notificações)
+- Fetch API (para chamadas REST)
+- Variáveis de ambiente com Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js (v18+ recomendado)
+- Backend rodando localmente (`http://localhost:5184` ou conforme configurado)
+
+### Passos
+
+1. **Clone o repositório**
+
+```bash
+git clone https://github.com/Williamp783/Desafio-Front.git
+cd seu-front-end
+```
+
+2. **Instale as dependências**
+
+```bash
+npm install
+```
+
+3. **Configure o ambiente**
+
+Crie um arquivo `.env` na raiz do projeto com:
+
+```env
+VITE_API_BASE=http://localhost:5184/api
+```
+
+Altere a URL conforme necessário para bater no seu backend.
+
+4. **Execute o front-end**
+
+```bash
+npm run dev
+```
+
+Acesse o app no navegador: (http://localhost:5173)
+
+---
+
+## Funcionalidades
+
+- Criar bots com nome e personalidade
+- Listar bots existentes
+- Conversar com o bot e ver respostas em tempo real
+- Histórico de mensagens por bot
+- Interface responsiva e interativa
+
+---
+
+Feito por um Dev Jr em evolução.
